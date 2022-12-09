@@ -71,5 +71,8 @@ export interface SelectProps<T extends {[key:string]:string|number|null}> {
   onChange:(key:string,column:string,value:string | number) => void,
   options:Option
 };
-
+----evn
+----
+NEXT_PUBLIC_API_URL = https://localhost:7088/api/
+API_URL = https://localhost:7088/api/
 
